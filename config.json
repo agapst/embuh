@@ -1,0 +1,31 @@
+{
+    "recording": {
+        "enable": true,
+        "path": "/mnt/sda1",
+        "interval": 300,
+        "options": ["-an"]
+    },
+    "api": {
+        "enable": true,
+        "port": 9000,
+        "key": "random_string_here"
+    },
+    "streaming": {
+        "enable": true,
+        "options": ["-an", "-r", "15", "-s", "1280x720"]
+    },
+    "input": {
+        "enable": true,
+        "options" : [],
+        "rtsp_transport": "tcp"
+    },
+    "compression": {
+        "level": 34
+    },
+    "url": {
+        "status":"http://localhost:8080"
+    },
+    "report": {
+        "start_time":"2024-05-01"   
+    }	
+}
